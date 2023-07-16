@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&family=Roboto+Slab:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+body{
+    background: url(paperBg.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.main-container{
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+#results{
+    padding-top: 150px;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Roboto Slab', serif;
+}
+.button-Container{
+    padding-top: 150px;
+}
+button{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 80px;
+    background-color: salmon;
+}
+button img{
+    height: 120px;
+    width: 119px;
+    align-items: center;
+}
