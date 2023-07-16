@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock_Paper_Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <h1 class="heading"></h1>
+      <div id="results"></div>
+      <div class="button-Container">
+        <button onclick="rockAnd()">
+          <img src="rock.png" alt="" />
+          <p>Rock</p>
+        </button>
+        <button onclick="PaperAnd()">
+          <img src="paper.png" />
+          <p>Paper</p>
+        </button>
+        <button onclick="ScissorAnd()">
+          <img src="scissor.png" alt="" />
+          <p>Scissor</p>
+        </button>
+        <button class="clearScreen" onclick="location.reload();">RESET</button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
